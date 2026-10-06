@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JQuery - Lấy họ và tên từ form</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Lấy họ và tên</h1>
+  <form id="form1">
+    <label for="fname">Họ:</label>
+    <input id="fname" type="text" name="fname" value="David" required>
+    <br>
+    <label for="lname">Tên:</label>
+    <input id="lname" type="text" name="lname" value="Beckham" required>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+  <p id="result" aria-live="polite"></p>
+</body>
+</html>
